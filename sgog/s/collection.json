@@ -1,0 +1,410 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Blomma, Berget",
+        "data": "blomma-berget.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.95887,
+          59.27286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Blomma, Norrsucka",
+        "data": "blomma-norrsucka.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.96770,
+          59.25117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Blomma, Ögården",
+        "data": "blomma-ogarden.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.96326,
+          59.26669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Blomma, 1:12 & 1:13",
+        "data": "blomma-1-13.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.96395,
+          59.26735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Blomma, Nygården",
+        "data": "blomma-nygarden.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.96184,
+          59.27081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Blomma, Herrgården",
+        "data": "blomma-herrgarden.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.96166,
+          59.27293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Breviken, Norstuga",
+        "data": "breviken-norstuga.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.106086,
+          59.294975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Breviken, Där Framme",
+        "data": "breviken-dar-framme.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.10881,
+          59.29172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Breviken, Nytomt",
+        "data": "breviken-nytomt.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.10729,
+          59.29571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Breviken, Tomta",
+        "data": "breviken-tomta.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.10727,
+          59.29436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Breviken, Hogen",
+        "data": "breviken-hogen.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.10299,
+          59.29227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Bustelund, Björkås",
+        "data": "bustelund-bjorkas.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.00153,
+          59.23034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Bustelund, Gärdet",
+        "data": "bustelund-gardet.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.00168,
+          59.22939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Bustelund, Sandviken",
+        "data": "bustelund-sandviken-1.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.99319,
+          59.23416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Bustelund, Sandviken",
+        "data": "bustelund-sandviken-2.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.99300,
+          59.23469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Bustelund, Toverud",
+        "data": "bustelund-toverud-1.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.00526,
+          59.22722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Bustelund, Toverud",
+        "data": "bustelund-toverud-2.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.00636,
+          59.22777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Bustelund, Tone",
+        "data": "bustelund-tone.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.98452,
+          59.23749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Bustelund, Nygården",
+        "data": "bustelund-nygarden.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.00693,
+          59.22719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Ed, Långåna",
+        "data": "ed-langana.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.00959,
+          59.36380
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Ed, 1:42",
+        "data": "ed-1-42.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.00712,
+          59.35229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Ekenäs, Byggningen",
+        "data": "ekenas-byggningen.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.04477,
+          59.21611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Ekenäs, Där väst i",
+        "data": "ekenas-dar-vast-i.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.03875,
+          59.20694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Ekenäs, Fridhem",
+        "data": "ekenas-fridhem.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.04564,
+          59.21110
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Ekenäs, Boden",
+        "data": "ekenas-boden.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.04443,
+          59.21735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Ekenäs, Granbo",
+        "data": "ekenas-granbo.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.05124,
+          59.21768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "SVENSKA_GODS_OCH_GÅRDAR",
+        "title": "Ekenäs, Löfås",
+        "data": "ekenas-lofas.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.04415,
+          59.21879
+        ]
+      }
+    }
+  ]
+}
