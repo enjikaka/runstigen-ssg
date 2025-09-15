@@ -6,5 +6,4 @@ category: blomskog
 
 Postadr.: Blomskog.
 
-Areal: 8 har åker, 50 skogsmark, 5 ängsmark.
-Tax.-v. 16.300.
+Areal: 8 har åker, 50 skogsmark, 5 ängsmark. Tax.-v. 16.300.

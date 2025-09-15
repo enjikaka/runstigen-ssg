@@ -5,8 +5,6 @@ ai_image: /sgog/s/blomma-herrgarden-ai.png
 category: blomskog
 ---
 
-Postadr.: Blomskog.
-Tel. 4 D.
+Postadr.: Blomskog. Tel. 4 D.
 
-Areal: 13 har åker, 62 skogsmark.
-Tax-v. 16.200.
+Areal: 13 har åker, 62 skogsmark. Tax-v. 16.200.
