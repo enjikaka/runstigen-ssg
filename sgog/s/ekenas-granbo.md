@@ -1,7 +1,7 @@
 ---
 title: Ekenäs, Granbo
 image: /sgog/s/ekenas-granbo.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Gustavsfors.

@@ -1,7 +1,7 @@
 ---
 title: Bustelund 1:12, Tone
 image: /sgog/s/bustelund-tone.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Blomskog.

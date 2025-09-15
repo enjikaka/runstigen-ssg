@@ -1,7 +1,7 @@
 ---
 title: Bustelund 1:25, Nygården
 image: /sgog/s/bustelund-nygarden.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Blomskog.

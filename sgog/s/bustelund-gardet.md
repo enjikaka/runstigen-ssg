@@ -1,7 +1,7 @@
 ---
 title: Bustelund, Gärdet
 image: /sgog/s/bustelund-gardet.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Blomskog.

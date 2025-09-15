@@ -1,7 +1,7 @@
 ---
 title: Ekenäs, Löfås
 image: /sgog/s/ekenas-lofas.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Gustavsfors.

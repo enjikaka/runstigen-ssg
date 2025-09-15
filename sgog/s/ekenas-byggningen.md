@@ -1,7 +1,7 @@
 ---
 title: Ekenäs, Byggningen
 image: /sgog/s/ekenas-byggningen.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Gustavsfors.

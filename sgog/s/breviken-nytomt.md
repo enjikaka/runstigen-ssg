@@ -1,7 +1,7 @@
 ---
 title: Breviken 1:25, Nytomt
 image: /sgog/s/breviken-nytomt.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Årjäng.

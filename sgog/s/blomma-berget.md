@@ -2,7 +2,7 @@
 title: Blomma, Berget
 image: /sgog/s/blomma-berget.png
 ai_image: /sgog/s/blomma-berget-ai.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Blomskog

@@ -1,7 +1,7 @@
 ---
 title: Ed 1:4, Långåna
 image: /sgog/s/ed-langana.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Blomskog. Tel. 8 Fölsbyn.

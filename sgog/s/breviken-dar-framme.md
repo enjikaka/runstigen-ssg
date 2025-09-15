@@ -1,7 +1,7 @@
 ---
 title: Breviken 1:19, Där Framme
 image: /sgog/s/breviken-dar-framme.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Årjäng. Tel. 26 Blomskog.

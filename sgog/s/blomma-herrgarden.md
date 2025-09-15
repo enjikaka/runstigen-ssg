@@ -2,7 +2,7 @@
 title: Blomma 1:16 och 1:21, Herrgården
 image: /sgog/s/blomma-herrgarden.png
 ai_image: /sgog/s/blomma-herrgarden-ai.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Blomskog. Tel. 4 D.

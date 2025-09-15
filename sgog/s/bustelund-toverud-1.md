@@ -1,7 +1,7 @@
 ---
 title: Bustelund 1:2, Toverud
 image: /sgog/s/bustelund-toverud-1.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Blomskog.

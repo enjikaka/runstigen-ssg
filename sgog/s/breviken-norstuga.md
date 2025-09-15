@@ -1,7 +1,7 @@
 ---
 title: Breviken 1:14, Norstuga
 image: /sgog/s/breviken-norstuga.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Årjäng. Tel. 26 Blomskog.

@@ -1,7 +1,7 @@
 ---
 title: Ekenäs, Där väst i
 image: /sgog/s/ekenas-dar-vast-i.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Gustavsfors.

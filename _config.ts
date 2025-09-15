@@ -8,4 +8,8 @@ site.use(picture());
 site.use(transform_images());
 site.add("/sgog");
 
+site.filter("getProvinces", (value) => {
+    return value[0].province;
+});
+
 export default site;

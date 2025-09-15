@@ -1,7 +1,7 @@
 ---
 title: Bustelund, Sandviken
 image: /sgog/s/bustelund-sandviken-1.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Blomskog.

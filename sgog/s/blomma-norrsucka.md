@@ -1,7 +1,7 @@
 ---
 title: Blomma 1:7 och 1:38, Norrsucka
 image: /sgog/s/blomma-norrsucka.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Blomskog.

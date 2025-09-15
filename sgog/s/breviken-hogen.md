@@ -1,7 +1,7 @@
 ---
 title: Breviken 1:26, Hogen
 image: /sgog/s/breviken-hogen.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Årjäng.

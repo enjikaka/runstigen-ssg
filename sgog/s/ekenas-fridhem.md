@@ -1,7 +1,7 @@
 ---
 title: Ekenäs, Fridhem
 image: /sgog/s/ekenas-fridhem.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Gustavsfors.

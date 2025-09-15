@@ -1,7 +1,7 @@
 ---
 title: Blomma 1:12, Ögården
 image: /sgog/s/blomma-ogarden.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Blomskog.

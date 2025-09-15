@@ -2,7 +2,7 @@
 title: Blomma 1:12 och 1:13
 image: /sgog/s/blomma-1-13.png
 ai_image: /sgog/s/blomma-1-13-ai.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Blomskog

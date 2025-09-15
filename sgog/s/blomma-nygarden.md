@@ -1,7 +1,7 @@
 ---
 title: Blomma 1:15 och 1:17, Nygården
 image: /sgog/s/blomma-nygarden.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Blomskog.

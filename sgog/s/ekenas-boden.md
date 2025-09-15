@@ -1,7 +1,7 @@
 ---
 title: Ekenäs, Boden
 image: /sgog/s/ekenas-boden.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Gustavsfors.

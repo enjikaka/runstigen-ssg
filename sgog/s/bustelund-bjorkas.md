@@ -1,7 +1,7 @@
 ---
 title: Bustelund, Björkås
 image: /sgog/s/bustelund-bjorkas.png
-category: blomskog
+district: blomskog
 ---
 
 Postadr.: Blomskog.
