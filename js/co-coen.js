@@ -79,6 +79,16 @@ function CoCoen () {
     
     return lastImage;
   }
+
+  function adjustImages () {
+    const slottedImages = $('slot').assignedNodes()
+      .filter(node => node instanceof HTMLImageElement || node instanceof HTMLPictureElement)
+      .map(node => node instanceof HTMLPictureElement ? node.querySelector('img') : node);
+    
+    slottedImages.forEach(image => {
+      image.style.width = '100%';
+    });
+  }
   
   function imageLoad () {
     const lastImage = getLastImage();
@@ -110,6 +120,7 @@ function CoCoen () {
     
     cutImage(0.5);
     updateComponentHeight();
+    adjustImages();
   });
 }
 
