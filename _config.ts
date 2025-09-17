@@ -25,38 +25,12 @@ site.filter("onlyDistrict", (pages: SGOGPage[], district: string) => {
   return pages.filter((page) => page.district === district);
 });
 
-site.filter("getProvinces", (pages: SGOGPage[]) => {
-  const provinces: Record<string, any[]> = {};
-
-  for (const page of pages) {
-    const family = page.province;
-    provinces[family] = [...(provinces[family] || []), page];
-  }
-
-  return Object.entries(provinces)
-    .map(([province, pages]) => ({
-      name: province,
-      slug: pages[0].provinceSlug,
-      count: pages.length,
-    }))
-    .sort((a, b) => a.name.localeCompare(b.name));
+site.filter("getProvinces", () => {
+  return [...new Set(site.search.pages("type=sgog").map((page) => page.province))];
 });
 
-site.filter("getDistricts", (pages: SGOGPage[]) => {
-  const districts: Record<string, any[]> = {};
-
-  for (const page of pages) {
-    const district = page.district;
-    districts[district] = [...(districts[district] || []), page];
-  }
-
-  return Object.entries(districts)
-    .map(([district, pages]) => ({
-      name: district,
-      slug: district.toLocaleLowerCase().split(' ').join('-'),
-      count: pages.length,
-    }))
-    .sort((a, b) => a.name.localeCompare(b.name));
+site.filter("getDistricts", () => {
+  return [...new Set(site.search.pages("type=sgog").filter((page) => page.province).map((page) => page.district))];
 });
 
 export default site;
