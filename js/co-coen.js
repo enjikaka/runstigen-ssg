@@ -16,6 +16,7 @@ function CoCoen () {
       user-select: none;
       cursor: col-resize;
       overflow: hidden;
+      touch-action: none;
     }
 
     ::slotted(picture),
@@ -68,9 +69,15 @@ function CoCoen () {
   
   function getLastImage () {
     const slottedImages = $('slot').assignedNodes()
-      .filter(node => node instanceof HTMLImageElement);
+      .filter(node => node instanceof HTMLImageElement || node instanceof HTMLPictureElement);
     
-    return slottedImages.pop();
+    const lastImage = slottedImages.pop();
+    
+    if (lastImage instanceof HTMLPictureElement) {
+      return lastImage.querySelector('img');
+    }
+    
+    return lastImage;
   }
   
   function imageLoad () {
@@ -96,7 +103,6 @@ function CoCoen () {
     
     self.addEventListener('pointerup', e => clickHandler(e), { passive: true });
     self.addEventListener('pointermove', e => {
-      console.log(e);
       if (e.pressure > 0) {
         clickHandler(e);
       }

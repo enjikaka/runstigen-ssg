@@ -1,0 +1,10 @@
+.sgog-list {
+  padding: 0;
+}
+
+.sgog-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+}

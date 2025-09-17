@@ -1,0 +1,13 @@
+picture:first-child {
+    view-transition-name: sgog-single-image;
+}
+
+h1,
+h2 {
+    text-transform: capitalize;
+}
+
+co-coen {
+    width: 100%;
+    max-width: 600px;
+}
