@@ -1,6 +1,7 @@
 ---
 title: Bustelund, Sandviken
 image: /sgog/s/bustelund-sandviken-1.png
+ai_image: /sgog/s/bustelund-sandviken-1-ai.png
 district: blomskog
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Bustelund 1:25, Nygården
 image: /sgog/s/bustelund-nygarden.png
+ai_image: /sgog/s/bustelund-nygarden-ai.png
 district: blomskog
 ---
 

@@ -3,9 +3,13 @@ layout: base.vto
 ---
 
 <article>
-  <img src="{{ image }}" alt="{{ title }}" width="600" transform-images="avif webp 600@1,1.5,2">
   {{ if ai_image }}
+  <co-coen>
+  <img src="{{ image }}" alt="{{ title }}" width="600" transform-images="avif webp 600@1,1.5,2">
   <img src="{{ ai_image }}" alt="{{ title }}" width="600" transform-images="avif webp 600@1,1.5,2">
+  </co-coen>
+  {{ else }}
+  <img src="{{ image }}" alt="{{ title }}" width="600" transform-images="avif webp 600@1,1.5,2">
   {{ /if }}
   <h1>{{ title }}</h1>
   <p>{{ content }}</p>
