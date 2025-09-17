@@ -1,6 +1,7 @@
 ---
 title: Ekenäs, Där väst i
 image: /sgog/s/ekenas-dar-vast-i.png
+ai_image: /sgog/s/ekenas-dar-vast-i-ai.png
 district: blomskog
 ---
 

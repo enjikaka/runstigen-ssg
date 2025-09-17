@@ -1,6 +1,7 @@
 ---
 title: Ekenäs, Löfås
 image: /sgog/s/ekenas-lofas.png
+ai_image: /sgog/s/ekenas-lofas-ai.png
 district: blomskog
 ---
 
