@@ -1,0 +1,7 @@
+{{ set provinces = "" |> getProvinces }}
+
+<ul class="provinces-list">
+{{ for province of provinces }}
+  <li><a href="{{ province.slug }}">{{ province.name }}</a></li>
+{{ /for }}
+</ul>

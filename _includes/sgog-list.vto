@@ -1,16 +1,22 @@
+<script type="module" src="/js/sgog-list.js"></script>
 {{ set sgogPages = search.pages("type=sgog", "order title") }}
-{{ set provinces = "" |> getProvinces }}
+{{ set provinces = "" |> getProvincesNames }}
 
 {{ for province of provinces }}
-  <h1>{{ province }}</h1>
+  {{ console.log(province) }}
+  <h2>{{ province }}</h2>
   {{ set provincePages = sgogPages |> onlyProvince(province) }}
-  {{ set districts = province |> getDistricts }}
+  {{ set districts = province |> getDistrictsNames }}
   {{ for district of districts }}
-    <h2>{{ district }}</h2>
+    <h3>{{ district }}</h3>
     {{ set districtPages = provincePages |> onlyDistrict(district) }}
+    <ul class="sgog-list">
     {{ for page of districtPages }}
-      <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      <li>
+        <img src="{{ page.image }}" alt="{{ page.title }}" width="64" transform-images="avif webp 64@1,1.5,2">
+        <a href="{{ page.url }}">{{ page.title }}</a>
+      </li>
     {{ /for }}
+    </ul>
   {{ /for }}
-  </ul>
 {{ /for }}

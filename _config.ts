@@ -31,12 +31,30 @@ site.filter("onlyDistrict", (pages: SGOGPage[], district: string) => {
   return pages.filter((page) => page.district === district);
 });
 
+site.add("js");
+site.add("css");
+
 site.filter("getProvinces", () => {
-  return [...new Set(site.search.pages("type=sgog").map((page) => page.province))];
+  const provinces = new Map<string, string>();
+
+  site.search.pages("type=sgog").forEach((page) => {
+    provinces.set(page.provinceSlug, page.province);
+  });
+
+  return Array.from(provinces.entries()).map(([slug, name]) => {
+    return {
+      slug,
+      name,
+    };
+  }).filter((province) => province.slug && province.name);
 });
 
-site.filter("getDistricts", () => {
-  return [...new Set(site.search.pages("type=sgog").filter((page) => page.province).map((page) => page.district))];
+site.filter("getProvincesNames", () => {
+  return [...new Set(site.search.pages("type=sgog").map((page) => page.province))].filter((province) => province);
+});
+
+site.filter("getDistrictsNames", () => {
+  return [...new Set(site.search.pages("type=sgog").filter((page) => page.province).map((page) => page.district))].filter((district) => district);
 });
 
 export default site;

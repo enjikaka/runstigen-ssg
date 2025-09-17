@@ -2,8 +2,9 @@
 layout: base.vto
 ---
 
-<article>
+<article class="sgog-single">
   {{ if ai_image }}
+  <script type="module" src="/js/co-coen.js"></script>
   <co-coen>
   <img src="{{ image }}" alt="{{ title }}" width="600" transform-images="avif webp 600@1,1.5,2">
   <img src="{{ ai_image }}" alt="{{ title }}" width="600" transform-images="avif webp 600@1,1.5,2">
