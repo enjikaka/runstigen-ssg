@@ -1,13 +1,17 @@
-{{ set pages = search.pages("type=sgog") }}
-{{ set provinces = pages |> getProvinces }}
+{{ set sgogPages = search.pages("type=sgog") }}
+{{ set provinces = sgogPages |> getProvinces }}
 
 
-<strong>
-{{provinces}}
-</strong>
-
-<ul>
-  {{ for page of pages }}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+{{ for province of provinces }}
+  <h1>{{ province.name }}</h1>
+  {{ set provincePages = sgogPages |> onlyProvince(province.name) }}
+  {{ set districts = provincePages |> getDistricts }}
+  {{ for district of districts }}
+    <h2>{{ district.name }}</h2>
+    {{ set districtPages = provincePages |> onlyDistrict(district.name) }}
+    {{ for page of districtPages }}
+      <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {{ /for }}
   {{ /for }}
-</ul>
+  </ul>
+{{ /for }}
