@@ -1,6 +1,7 @@
 ---
 title: Breviken 1:26, Hogen
 image: /sgog/s/breviken-hogen.png
+ai_image: /sgog/s/breviken-hogen-ai.png
 district: blomskog
 ---
 

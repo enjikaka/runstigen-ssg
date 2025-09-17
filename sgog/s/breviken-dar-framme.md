@@ -1,6 +1,7 @@
 ---
 title: Breviken 1:19, Där Framme
 image: /sgog/s/breviken-dar-framme.png
+ai_image: /sgog/s/breviken-dar-framme-ai.png
 district: blomskog
 ---
 

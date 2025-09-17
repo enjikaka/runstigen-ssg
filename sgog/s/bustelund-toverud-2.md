@@ -1,6 +1,7 @@
 ---
 title: Bustelund 1:4, 1:5 och 1:53, Toverud
 image: /sgog/s/bustelund-toverud-2.png
+ai_image: /sgog/s/bustelund-toverud-2-ai.png
 district: blomskog
 ---
 
