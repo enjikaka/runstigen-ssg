@@ -1,4 +1,4 @@
-{{ set sgogPages = search.pages("type=sgog") }}
+{{ set sgogPages = search.pages("type=sgog", "order title") }}
 {{ set provinces = "" |> getProvinces }}
 
 {{ for province of provinces }}
