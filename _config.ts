@@ -1,10 +1,16 @@
 import lume from "lume/mod.ts";
 import picture from "lume/plugins/picture.ts";
 import transform_images from "lume/plugins/transform_images.ts";
+import slugify_urls from "lume/plugins/slugify_urls.ts";
+import relative_urls from "lume/plugins/relative_urls.ts";
+import resolve_urls from "lume/plugins/resolve_urls.ts";
 
 const site = lume();
 
+site.use(slugify_urls());
 site.use(picture());
+site.use(relative_urls());
+site.use(resolve_urls());
 site.use(transform_images());
 site.add("/sgog");
 
